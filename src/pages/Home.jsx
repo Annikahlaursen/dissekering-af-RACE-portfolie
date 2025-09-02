@@ -1,5 +1,4 @@
 import BannerImage from "../components/BannerImage";
-import ClientsSection from "../components/ClientsSection";
 import ContactSection from "../components/ContactSection";
 import CVHero from "../components/CVHero";
 import Expertise from "../components/Expertise";
@@ -12,7 +11,6 @@ export default function Home() {
     <>
       <Header />
       <Expertise />
-      <ClientsSection />
       <CVHero />
       <BannerImage />
       <ContactSection />
