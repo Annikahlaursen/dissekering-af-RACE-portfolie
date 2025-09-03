@@ -21,7 +21,7 @@ export default function ClientsSection() {
       {clients.map((client) => (
         <ClientRow client={client} key={client.id} />
       ))}
-      <NavLink to={`/clients/${client.id}`}>Læs mere</NavLink>
+      <NavLink to={`/clients/${clients.id}`}>Læs mere</NavLink>
     </section>
   );
 }
